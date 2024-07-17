@@ -1,0 +1,50 @@
+//COLORS
+/*
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%)
+*/
+
+:root {
+  --color-primary: rgb(197, 248, 42);
+  --color-white: rgb(255, 255, 255);
+  --color-grey: rgb(51, 51, 51);
+  --color-grey-dark: rgb(31, 31, 31);
+  --color-black: rgb(20, 20, 20);
+
+  --margin-big: 2rem;
+  --margin-small: .8rem;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: inter, sans-serif;
+  padding:2rem;
+  
+  min-height: 100vh;
+  background-color: var(--color-black);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
